@@ -1328,12 +1328,15 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1355,"밀쳐내기 무효","밀쳐내기 및 끌어당기기 효과가 무효화되는 상태.",14835,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 1356,"물요정","물요정으로 변신한 상태. 기술을 실행할 수 없다.<br>전용 기술 '물요정 주먹'만 실행 가능.",15043,0,2,17,0,false,false,true,false,true,false,false,false,false,200,true,2,false,0,false,false,0,9,false
 1357,"중력 반전","중력이 반전되어 하늘로 떠올라 서서히 고도가 상승하는 상태.",15767,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
+1358,"고도 고정: 위","고도가 위쪽으로 고정된 상태. 고도를 변화시키는 효과를 받을 수 없다.",15768,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,25,false,0,false,false,0,24,false
 1359,"서서히 석화","점점 돌이 되는 상태.",18861,3,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1360,"중력 폭발","중력 마력의 영향을 받은 상태. 효과 종료 시에 중력 이상을 일으켜 주위에 무속성 피해를 준다.",15770,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
+1361,"마도 레비테트","중력을 거슬러 허공에 뜬 상태.",15037,0,1,16,33,false,false,false,false,false,false,false,true,true,1,true,12,true,0,false,false,0,0,false
 1362,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1363,"수면","잠에 빠져 행동이 불가능한 상태.",15013,0,2,2,3,true,false,true,false,false,false,false,true,true,100,true,0,false,0,false,false,0,3,false
 1364,"질풍의 극의","질풍의 극의를 실행할 수 있는 상태.",12530,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1365,"선더가 시전 가능","선더가를 시전할 수 있는 상태.",10461,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1366,"레비테트","중력을 거슬러 허공에 뜬 상태.",15037,0,1,16,33,false,false,false,false,false,false,false,true,true,1,true,12,true,0,false,false,0,0,false
 1367,"임팩트 시전 가능","임팩트를 시전할 수 있는 상태.",13401,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1368,"안식 기도","적에게 주는 마법 피해량과 회복 마법의 회복량이 증가한 상태.",12514,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1369,"안식 기도","적에게 주는 마법 피해량과 회복 마법의 회복량이 증가한 상태.",12514,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1350,6 +1353,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1387,"기술 효과 범위 변경","기술의 효과 범위가 변경된 상태.",10404,0,1,0,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,14,false
 1388,"화차의 재","화차의 재를 뒤집어 쓴 상태.",15804,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1389,"유혹","유혹에 마음이 빼앗겨 몸이 멋대로 움직이는 상태.",15552,0,2,17,17,false,true,true,true,false,true,false,true,false,100,true,11,false,0,false,false,0,0,true
+1390,"레비테트","중력을 거슬러 허공에 뜬 상태.",15037,0,1,16,0,false,false,false,false,false,false,false,true,true,1,true,12,true,0,false,false,0,0,false
 1391,"구속","행동이 불가능한 상태.",15545,0,2,17,0,true,false,true,true,false,false,false,true,true,100,true,4,false,0,false,false,0,0,false
 1392,"문스톤의 빛","문스톤의 빛으로 힘을 얻은 상태. 적에게 주는 피해량이 증가하고 받는 피해량이 감소한다.",15803,0,1,16,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1393,"연속 마법","다음에 사용하는 마법을 시전 시간 없이 실행할 수 있는 상태.",13406,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1371,6 +1375,8 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1409,"허약","회복마법으로 받는 HP 회복 효과가 떨어진 상태.",15531,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1410,"찬찰라","미의 신 락슈미가 변덕을 부리는 상태.",15805,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
 1411,"60레벨 경험치 증가","60레벨 미만일 때 얻는 경험치가 크게 증가하는 상태.",16227,0,1,16,0,false,false,false,false,false,false,false,true,true,0,false,0,true,0,false,false,0,0,false
+1412,"받는 피해 증가","받는 피해량이 증가하는 상태.",17101,16,2,17,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,0,false
 1413,"홍련의 극의","무기 기술의 재사용 대기 시간이 늘어나는 대신에 주는 피해량이 증가하는 상태.",12528,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1414,"전투 기도","주는 피해량이 증가한 상태.",12578,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1415,"프로테스","받는 피해량이 감소하는 상태.",10405,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1416,"고도 고정: 아래","고도가 아래쪽으로 고정된 상태. 고도를 변화시키는 효과를 받을 수 없다.",15806,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,25,false,0,false,false,0,24,false
