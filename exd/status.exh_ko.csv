@@ -15,6 +15,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 13,"속박","이동이 불가능한 상태.",15003,0,2,12,5,true,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,0,false
 14,"과중력","이동 속도가 느려진 상태.",15002,0,2,4,6,false,false,false,false,false,false,true,false,false,100,true,1,false,0,false,false,0,0,false
 15,"실명","어둠에 사로잡혀 명중률이 떨어진 상태.",15012,0,2,10,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
+16,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 17,"마비","몸이 마비되어 잠깐씩 행동할 수 없는 상태.",15006,0,2,5,0,false,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,0,false
 18,"독","독에 중독된 상태. HP가 서서히 줄어든다.",15007,0,2,1,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 19,"맹독","독에 중독된 상태. HP가 서서히 줄어든다.",15517,0,2,1,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
@@ -73,7 +74,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 72,"재활","자신이 받는 회복마법의 HP 회복 효과가 상승하는 상태.",10157,0,1,16,0,false,false,false,false,false,false,false,false,false,1,true,0,false,0,false,false,0,0,false
 73,"경각심","적에게 극대화 공격을 받지 않는 상태.",13916,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 74,"경계","받는 피해량이 일부 감소되는 상태.",10151,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-75,"강철의 의지","적의 밀쳐내기와 끌어당기기를 무효화하는 상태.",10153,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+75,"강철의 의지","일부를 제외한 적의 밀쳐내기와 끌어당기기를 무효화하는 상태.",10153,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 76,"임전무퇴","물리 공격 피해량이 상승한 상태.",10155,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 77,"방패 각성","방패 막기 발동률이 올라간 상태.",10156,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 78,"충의의 검","자동 공격에 추가 피해가 부여된 상태.",12505,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,true,0,false,false,0,0,false
@@ -158,7 +159,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 157,"쾌속의 마법","자동 공격 주기, 마법 시전 시간 및 재사용 대기 시간이 줄어든 상태.",12627,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 158,"리제네","지속적으로 HP가 회복되는 상태.",12626,0,1,16,0,false,false,false,false,false,false,false,false,false,5,true,0,false,0,false,false,0,0,false
 159,"신성한 문장","회복마법 회복량이 증가한 상태.",10407,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-160,"견고한 마법","시전 중 피해를 받아도 시전이 취소되지 않는 상태.",10452,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+160,"견고한 마법","시전 중 피해를 받아도 마법 시전이 취소되지 않는 상태.",10452,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 161,"선더","번개속성 피해로 HP가 서서히 줄어드는 상태.",10457,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 162,"선더라","번개속성 피해로 HP가 서서히 줄어드는 상태.",10458,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 163,"선더가","번개속성 피해로 HP가 서서히 줄어드는 상태.",10459,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
@@ -179,7 +180,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 178,"저승의 냉기 3","영혼이 그림자 극성에 치우친 상태.<br>불속성 마법의 위력이 떨어지며 소비 MP가 감소한다.<br>MP 회복 속도가 상승한다.",10468,0,1,16,16,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
 179,"바이오","HP가 서서히 줄어드는 상태.",10504,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 180,"미아즈마","HP가 서서히 줄어드는 상태.",10506,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
-181,"질병","이동 속도 및 회복마법으로 받는 HP 회복 효과가 떨어진 상태.<br>※ PvP 지역에서는 이동 속도 감소 효과 무효",15014,0,2,17,0,false,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,4,false
+181,"질병","이동 속도 및 회복마법으로 받는 HP 회복 효과가 떨어진 상태.",15014,0,2,17,0,false,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,4,false
 182,"바이러스","힘과 민첩성이 떨어진 상태.",10510,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 183,"정신 바이러스","지능과 정신력이 떨어진 상태.",10511,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 184,"독려","지속적으로 HP가 회복되는 상태.",10508,0,1,16,0,false,false,false,false,false,false,false,false,false,5,true,0,false,0,false,false,0,0,false
@@ -379,13 +380,15 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 378,"물귀신 작전","발목을 잡혀 이동이 불가능한 상태.",15003,0,2,17,0,true,false,true,false,false,false,false,true,true,100,true,0,false,0,false,false,0,0,false
 379,"저기압","주위 기압이 내려간 상태. 바람속성 피해로 HP가 서서히 줄어든다.",17241,3,2,17,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 380,"고기압","주위 기압이 올라간 상태. 바람속성 저항이 상승한다.",15030,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
-381,"귀갑 방패","받는 피해량이 일부 감소되는 상태.",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+381,"충의의 검","자동 공격 시 추가 피해를 주는 상태.",12505,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,true,0,false,false,0,0,false
+382,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+383,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 384,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 385,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 386,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 387,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 388,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-389,"꼬챙이 꿰기","마법 공격으로 주는 피해량과 회복 마법의 회복량이 감소한 상태.",14808,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+389,"꼬챙이 꿰기","적에게 주는 피해량과 회복 마법의 회복량이 감소한 상태.",14808,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 390,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 391,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 392,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -423,7 +426,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 424,"보이드의 저주","보이드의 저주에 빠진 상태. 받는 피해량이 증가한다.",17341,8,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 425,"보이드의 요기","보이드의 요기 때문에 흥분한 상태. 수면 저항이 생긴다.",15574,0,2,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 426,"밤의 방패","마법 장벽을 펼친 상태. 기절 저항이 생긴다.",15575,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-427,"둔화+","자동 공격 주기, 무기 기술 및 마법 시전 시간과 재사용 대기 시간이 늘어난 상태. 해제 불가.",17361,0,2,13,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
+427,"둔화+","자동 공격 주기, 무기 기술 및 마법 시전 시간과 재사용 대기 시간이 늘어난 상태. 해제 불가.",17361,16,2,13,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 428,"헤이스트+","자동 공격 주기, 무기 기술 및 마법 시전 시간과 재사용 대기 시간이 줄어든 상태. 해제 불가.",17381,16,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 429,"환각 가루","환각 가루가 묻은 상태. 아리오크가 좋아하는 향기를 낸다. 받는 피해량이 증가한다.",17401,16,2,17,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 430,"비탄","슬픔에 빠진 상태. 받는 피해량이 증가한다.",15576,0,2,17,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,0,false
@@ -495,6 +498,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 496,"인","인을 맺은 상태.",12901,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,799,false,false,0,13,false
 497,"생사여탈","다음에 사용하는 인술이 반드시 극대화되는 상태.",12902,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 498,"허약","회복마법으로 받는 HP 회복 효과가 떨어진 상태.",15531,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
+499,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 500,"풍둔술","자동 공격 주기 및 무기 기술의 재사용 대기 시간이 줄어든 상태.",12903,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
 501,"토둔술","땅속성 지속 피해 영역을 발생시킨 상태.",12904,0,1,16,0,false,false,false,false,false,false,false,false,false,10,true,0,true,0,false,false,0,0,false
 502,"과중력","이동 속도가 느려진 상태.",15002,0,2,4,6,false,false,false,false,false,false,true,false,true,100,true,1,false,0,false,false,0,0,false
@@ -525,12 +529,12 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 527,"얼어붙은 지팡이","시바가 지팡이를 손에 든 상태. 주는 피해량이 증가한다.",15634,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
 528,"얼어붙은 활","시바가 활을 들어, 극대화 발동률이 증가한 상태.",15635,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
 529,"무적","받는 피해를 무효화하는 상태.",15024,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-530,"화상","불속성 피해로 HP가 서서히 줄어드는 상태.",17181,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
+530,"화상","불속성 피해로 HP가 서서히 줄어드는 상태.",19001,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
 531,"물독","물속성 피해로 HP가 서서히 줄어드는 상태.",17641,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
-532,"열상","바람속성 피해로 HP가 서서히 줄어드는 상태.",17181,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
-533,"감전","번개속성 피해로 HP가 서서히 줄어드는 상태.",17181,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
+532,"열상","바람속성 피해로 HP가 서서히 줄어드는 상태.",19021,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
+533,"감전","번개속성 피해로 HP가 서서히 줄어드는 상태.",19041,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
 534,"진흙탕","땅속성 피해로 HP가 서서히 줄어드는 상태.",18881,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
-535,"동상","얼음속성 피해로 HP가 서서히 줄어드는 상태.",17181,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
+535,"동상","얼음속성 피해로 HP가 서서히 줄어드는 상태.",19061,16,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
 536,"버디 강화: 경험치 증가","버디 획득 경험치가 증가한 상태.",14026,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
 537,"버디 강화: 경험치 증가 2","버디 획득 경험치가 증가한 상태.",14027,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
 538,"버디 강화: 공격력 상승","버디의 공격력이 올라간 상태.",14028,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
@@ -562,7 +566,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 564,"속박","이동이 불가능한 상태.",15003,0,2,12,5,true,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,0,false
 565,"변신","다른 모습으로 변신한 상태. 기술을 실행할 수 없다.",16214,0,1,16,0,false,false,true,false,true,false,false,false,false,100,true,2,false,0,false,false,0,9,false
 566,"주는 피해량 증가","적에게 주는 피해량이 증가한 상태.",17061,16,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-567,"침하","서서히 몸이 가라앉는 상태. 이동 속도가 느려지며, 몸이 완전히 빠지면 전투불능 상태가 된다.",15631,0,2,0,0,false,false,false,false,false,false,false,false,false,100,true,24,false,0,false,false,0,0,false
+567,"침하","서서히 몸이 가라앉는 상태. 이동 속도가 느려지며, 몸이 완전히 빠지면 전투불능 상태가 된다.",15769,0,2,0,0,false,false,false,false,false,false,false,false,false,100,true,24,false,0,false,false,0,0,false
 568,"어부의 직감","희귀한 어류의 기척을 느낀 상태.<br>특수한 상황에서만 출현하는 어류가 낚일 가능성이 있다.",11101,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
 569,"점액","점액이 묻어 움직임이 둔해진 상태. HP가 서서히 줄어든다.",15609,0,2,17,0,false,false,false,false,false,false,true,false,false,100,true,0,false,0,false,false,0,0,false
 570,"겨냥","총을 들고 겨눈 상태. 총을 쏠 때마다 적에게 주는 피해량이 증가한다.",15636,0,1,16,0,false,false,false,false,false,false,false,true,false,51,true,0,true,0,false,false,0,0,false
@@ -622,7 +626,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 624,"절상","베기속성 피해로 HP가 서서히 줄어드는 상태.",15521,0,2,17,0,false,false,false,false,false,false,false,true,true,10,true,0,false,0,false,false,0,0,false
 625,"넉다운","넉다운된 상태. 이동하거나 기술을 실행할 수 없다.",15044,0,2,3,0,true,false,true,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 626,"기술 실행 불가","기술을 실행할 수 없는 상태.",15045,0,2,3,0,false,false,true,false,false,false,false,true,true,100,true,0,false,0,false,false,0,0,false
-627,"리제네","지속적으로 HP가 회복되는 상태.",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+627,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 628,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 629,"허약","회복마법으로 받는 HP 회복 효과가 떨어진 상태.",17961,16,2,17,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,0,false
 630,"과중력","가속이 제한된 상태.",16576,0,2,0,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
@@ -641,7 +645,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 643,"고통","무속성 피해로 HP가 서서히 줄어드는 상태.",17121,8,2,17,0,false,false,false,false,false,false,false,false,false,10,true,0,false,0,false,false,0,0,false
 644,"닭","닭으로 변신한 상태. 기술을 실행할 수 없다.",15640,0,2,17,0,false,false,true,false,true,false,false,false,false,100,true,2,false,0,false,false,0,9,false
 645,"소화 중","소화되고 있는 상태. HP가 서서히 줄어들며, 받는 피해량이 증가한다.",18081,8,2,17,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
-646,"고독감","동료와 멀리 떨어지면 공황 상태에 빠진다.",15649,0,2,17,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
+646,"고독감","동료와 멀리 떨어지면 공황 상태에 빠진다.",15649,0,2,17,40,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 647,"능력치 저하","모든 기본 능력치가 30% 떨어진 상태.",15639,0,2,0,0,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
 648,"서서히 HP 회복","지속적으로 HP가 회복되는 상태.",15532,0,1,16,0,false,false,false,false,false,false,false,false,false,1,true,0,false,0,false,false,0,0,false
 649,"물리 공격력 상승","물리 공격력이 올라간 상태.",15050,0,1,16,0,false,false,false,false,false,false,false,false,false,1,true,0,false,0,false,false,0,0,false
@@ -766,6 +770,8 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 768,"회오리 형태","회오리 형태를 이루고 있는 상태.",15671,0,1,16,0,false,false,false,false,true,false,false,true,true,0,true,2,false,0,false,false,0,9,false
 769,"불꽃 사슬","불꽃 사슬에 묶여 HP가 서서히 줄어드는 상태.",15666,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 770,"구속","행동이 불가능한 상태.",15545,0,2,17,0,true,false,true,true,false,false,false,true,false,100,true,0,false,0,false,false,0,0,false
+771,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+772,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 773,"분발","공격 방향 조건이 있는 기술이 어떤 방향에서나 성공하는 상태.",14819,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 774,"넉다운","넉다운된 상태. 이동하거나 기술을 실행할 수 없다.",15044,0,2,3,0,true,false,true,false,false,false,false,true,false,100,true,4,false,0,false,false,0,0,false
 775,"무적","받는 피해를 무효화하는 상태.",15024,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,12,false
@@ -815,6 +821,10 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 819,"베기 저항 감소","베기 저항이 떨어진 상태.",15786,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 820,"찌르기 저항 감소","찌르기 저항이 떨어진 상태.",15065,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 821,"타격 저항 감소","타격 저항이 떨어진 상태.",15064,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
+822,"구속","행동이 불가능한 상태.",15545,0,2,17,42,true,false,true,true,false,false,false,true,false,100,true,4,false,0,false,false,0,0,false
+823,"유혹","유혹에 마음이 빼앗겨 몸이 멋대로 움직이는 상태.",15552,0,2,17,17,false,true,true,true,false,true,false,true,false,100,true,0,false,0,false,false,0,0,false
+824,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+825,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 826,"점지","카드를 뽑은 상태.",13201,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 827,"왕도","다음에 발동하는 카드에 추가 효과가 부여된다.",13202,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 828,"보류","카드를 보류한 상태.",13203,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1166,14 +1176,15 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1174,"중재","받는 피해량이 일부 감소되는 상태.",12511,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1175,"결연한 수호자","받는 피해량을 감소시키는 보호막을 펼친 상태.",12512,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,4,true,0,false,false,0,27,false
 1176,"수호자의 결의","받는 피해량이 일부 감소되는 상태.",12513,0,1,16,0,false,false,false,false,false,false,false,false,true,0,true,0,false,0,false,false,0,0,false
-1177,"원초의 해방","기절, 수면, 속박, 과중력, 밀쳐내기, 끌어당기기 효과를 받지 않는 상태.",12556,0,1,16,29,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1177,"원초의 해방","기절, 수면, 속박, 과중력 및 일부를 제외한 밀쳐내기, 끌어당기기 효과를 받지 않는 상태.",12556,0,1,16,29,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1178,"흑야","일정량의 피해를 무효화하는 상태.",13118,0,1,16,0,false,false,false,false,false,false,false,false,false,60,true,0,false,0,false,false,0,12,false
 1179,"금강의 극의","피해를 받으면 질풍번개의 지속시간이 초기화되고 '금강의 결의'가 발동하는 상태.",12527,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,25,false
 1180,"금강의 결의","받는 피해량이 감소한 상태.",12531,0,1,27,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1181,"홍련의 극의","주는 피해량이 증가하지만 무기 기술의 재사용 대기 시간이 길어진 상태.",12528,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,22,false,0,false,false,0,18,false
 1182,"도원결의","적에게 주는 물리 피해량이 증가한 상태.",12529,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,5,false
-1183,"용의 오른쪽 눈","적에게 주는 피해량이 증가한 상태.",12581,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
-1184,"용의 왼쪽 눈","적에게 주는 피해량이 증가한 상태.",12582,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
+1183,"용의 오른눈","적에게 주는 피해량이 증가한 상태.",12581,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
+1184,"용의 왼눈","용기사의 힘을 나누어 받아 적에게 주는 피해량이 증가한 상태.",12582,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
+1185,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1186,"천지인","인술의 재사용 대기 시간이 단축되는 상태.",12911,0,1,16,26,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,100,false
 1187,"방랑 음악가의 담시곡","최대 HP가 증가하는 상태.",12612,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1188,"극대화율 증가","극대화 발동률이 증가한 상태.",12613,0,1,16,0,false,false,false,false,false,false,false,false,true,0,true,0,false,0,false,false,0,0,false
@@ -1194,15 +1205,17 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1203,"정신 교란","지능과 정신력이 감소한 상태.",13917,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 1204,"자각몽","MP가 서서히 회복되는 상태.",13909,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1205,"화염 방사","전방 부채꼴 범위 안의 대상에게 지속 피해를 주는 상태.",13017,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,4,true,0,false,false,0,27,false
+1206,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1207,"자애","회복마법 회복량이 증가한 상태.",13910,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1208,"받는 피해 증가","받는 피해량이 증가한 상태.",15020,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-1209,"거리 유지","밀쳐내기와 끌어당기기를 무효화하는 상태.<br>공격을 받으면 공격자에게 둔화를 부여한다.",13915,0,1,16,0,false,false,false,false,false,false,false,false,false,30,true,0,false,0,false,false,0,0,false
+1209,"거리 유지","일부를 제외한 밀쳐내기와 끌어당기기를 무효화하는 상태.<br>공격을 받으면 공격자에게 둔화를 부여한다.",13915,0,1,16,0,false,false,false,false,false,false,false,false,false,30,true,0,false,0,false,false,0,0,false
 1210,"선더쟈","번개속성 피해로 HP가 서서히 줄어드는 상태.",12657,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 1211,"삼연속 마법","마법을 시전 시간 없이 실행할 수 있는 상태.",12658,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,19,false
-1212,"루인 강화","루인쟈를 실행할 수 있는 상태.",12685,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
+1212,"루인라 강화","루인쟈를 실행할 수 있는 상태.",12685,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
 1213,"에기의 가호","주는 피해량과 회복마법 회복량이 증가하고, 받는 피해량의 일부가 감소한 상태.",12681,0,1,16,0,false,false,false,false,false,false,false,false,false,50,true,23,true,0,false,false,0,0,false
 1214,"바이오가","HP가 서서히 줄어드는 상태.",12682,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 1215,"미아즈가","HP가 서서히 줄어드는 상태.",12683,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
+1216,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1217,"실바람","MP 소모 없이 마법을 사용할 수 있는 상태.",12631,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,6,false,0,false,false,0,19,false
 1218,"신성한 축복","받는 피해량의 일부가 감소하는 상태.",12632,0,1,16,0,false,false,false,false,false,false,false,false,false,60,true,0,false,0,false,false,0,12,false
 1219,"성찰","백마도사의 '대사면'으로 HP를 회복할 수 있는 상태. ",18901,3,1,26,0,false,false,false,false,false,false,false,false,false,60,true,0,false,0,false,false,0,28,false
@@ -1211,9 +1224,12 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1222,"요정의 결합","대상을 지속적으로 회복시키는 상태.",12810,0,1,16,0,false,true,true,false,false,false,false,true,true,100,true,0,true,0,false,false,0,0,false
 1223,"결합 대상","요정에게서 지속 회복 효과를 받는 상태.",12811,0,1,16,0,false,false,false,false,false,false,false,true,true,100,true,0,true,0,false,false,0,0,false
 1224,"별의 지배자","지상의 별을 발생시킨 상태.",13241,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
+1225,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1226,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1227,"설풍","베기 저항이 떨어진 상태.",13303,0,2,17,0,false,false,false,false,false,false,true,false,false,50,true,0,false,0,false,false,0,0,false
 1228,"피안화","HP가 서서히 줄어드는 상태.",13304,0,2,17,0,false,false,false,false,false,false,true,false,false,10,true,0,false,0,false,false,0,0,false
 1229,"필살검: 회천","다음 무기 기술로 주는 피해량이 증가한 상태.",13305,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1230,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1231,"묵상","검기가 지속적으로 증가하는 상태.",13306,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,4,false,0,false,false,0,27,false
 1232,"심안","다음 1회의 받는 피해량이 일부 감소한 상태.",13307,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1233,"명경지수","무기 기술이 무조건 콤보로 판정되는 상태.",13309,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,21,false
@@ -1224,12 +1240,15 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1238,"가속화","버파이어 시전 가능 또는 버스톤 시전 가능 효과의 발동 확률이 올라간 상태.",13405,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1239,"성원","마법 공격으로 주는 피해량이 증가한 상태.",18921,5,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1240,"필살검: 지천","받는 피해량이 감소하고, 적에게 반격 피해를 주는 상태.",14820,0,1,16,0,false,false,false,false,false,false,false,false,false,1,true,0,false,0,false,false,0,0,false
-1241,"겨루기","대상에게 주는 피해량이 증가하고, 대상에게서 받는 피해량이 감소하는 상태.",14821,0,1,16,0,false,false,false,false,false,false,false,true,true,50,true,0,true,0,false,false,0,0,false
-1242,"겨루기 대상","효과를 부여한 적마도사에게서 받는 피해량이 증가하고, 해당 적마도사에게 주는 피해량은 감소한 상태.",14822,0,2,17,0,false,false,false,false,false,false,false,true,true,50,true,0,true,0,false,false,0,0,false
+1241,"겨루기","대상에게 주는 피해량이 증가하고, 대상에게서 받는 피해량이 감소하는 상태.",14821,0,1,16,0,false,false,false,false,false,false,false,false,false,50,true,0,true,0,false,false,0,0,false
+1242,"겨루기 대상","효과를 부여한 적마도사에게서 받는 피해량이 증가하고, 해당 적마도사에게 주는 피해량은 감소한 상태.",14822,0,2,17,0,false,false,false,false,false,false,false,false,false,50,true,0,true,0,false,false,0,0,false
 1243,"환영 강타 시전 가능","환영 강타를 실행할 수 있는 상태.",12583,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1244,"질풍의 극의","질풍의 극의를 실행할 수 있는 상태.",12530,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1245,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1246,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1247,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1248,"큰별의 지배자","지상의 별을 발생시킨 상태.",13242,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
-1249,"연속 마법","다음에 사용하는 마법을 시전 시간 없이 실행할 수 있는 상태.",13406,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1249,"연속 마법","다음에 사용하는 마법을 시전 시간 없이 실행할 수 있는 상태.",13406,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,true,0,false,false,0,0,false
 1250,"진북","공격 방향 조건이 있는 기술이 어떤 방향에서나 성공하는 상태.",13903,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1251,"포탑 수리 중","포탑을 설치할 수 없는 상태.",13018,0,2,17,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
 1252,"개안","심안이 성공한 상태.",13308,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1239,8 +1258,9 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1256,"부상","부상당해 적에게 주는 피해량이 떨어진 상태. 특정 공격으로 받는 피해량이 증가한다.",15763,0,2,17,35,false,false,false,false,false,false,false,true,true,100,true,0,false,0,false,false,0,25,false
 1257,"강제 이동","지정된 방향으로 계속 이동하는 상태.",15773,0,2,17,0,true,false,true,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1258,"구속","행동이 불가능한 상태.",15003,0,2,17,0,false,true,false,false,false,false,false,true,true,100,true,0,false,0,false,false,0,0,false
-1259,"노화","노인이 된 상태. 이동 속도가 감소한다.",15581,0,2,17,0,false,false,true,false,true,false,false,false,false,200,true,2,false,0,false,false,0,9,false
+1259,"노화","노인이 된 상태. 이동 속도가 감소한다.",15771,0,2,17,0,false,false,true,false,true,false,false,false,false,200,true,2,false,0,false,false,0,9,false
 1260,"번개속성 저항 감소[강]","번개속성 저항이 크게 떨어진 상태.",15597,0,2,17,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
+1261,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1262,"채집 HQ 획득률 증가 2(한정)","다음 채집 시 1회에 한해 HQ 획득률이 증가한 상태. HQ를 입수할 수 없는 상태가 부여되어 있거나, 채집물이 HQ가 존재하지 않는 아이템이면 효과가 없다.",16010,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,true,0,false,false,0,0,false
 1263,"서서히 HP 회복","지속적으로 HP가 회복되는 상태.",12626,0,1,16,0,false,false,false,false,false,false,false,true,true,5,true,0,false,0,false,false,0,0,false
 1264,"빛의 결의","빛의 전사로서 굳게 결의하여 자신의 한계를 초월한 상태.",15711,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
@@ -1251,7 +1271,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1269,"행동 주의","효과가 끝날 때 자동 공격, 기술 사용, 이동 등 행동을 취하고 있으면 페널티를 받는 상태.",15747,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,23,false
 1270,"재앙거품","재앙거품이 달라붙은 상태. 지속시간이 끝나기 전에 움직이면 큰 피해를 받는다.",15784,0,2,17,24,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,23,false
 1271,"칼 막기","적의 칼을 막아내는 상태.",15785,0,2,0,0,true,false,true,true,false,false,false,true,true,0,true,4,false,0,false,false,0,0,false
-1272,"베기 저항 감소[강]","베기 저항이 크게 떨어진 상태.",15786,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
+1272,"베기 저항 감소[강]","베기 저항이 크게 떨어진 상태.",15826,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1273,"침몰","몸이 서서히 가라앉는 상태. 완전히 가라앉으면 전투불능이 된다.",15787,0,2,17,0,false,false,false,false,false,false,false,false,false,100,true,24,false,0,false,false,0,0,false
 1274,"시련의 벌","시련에 실패하고 벌을 받은 상태. 2단계로 중첩되면 구속 상태로 변한다.",18841,2,2,17,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
 1275,"화염 이외 반사","빙결속성과 뇌격속성의 힘이 깃든 공격을 반사하는 상태.",15788,0,1,16,0,false,false,false,false,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
@@ -1286,6 +1306,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1304,"일대일 결투","일정 시간 동안 이동이 불가능해지며<br>일부 공격을 제외하고 피격 시 HP가 1 미만으로 떨어지지 않는 상태.<br>효과 중에는 공격을 받아도 이동 불가가 해제되지 않음.",10255,0,2,17,0,false,true,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1305,"일대일 결투 대상","이동이 불가능한 상태. 피해를 받아도 효과가 해제되지 않는다.",14824,0,2,17,0,false,true,false,false,false,false,true,false,false,0,true,0,false,0,false,false,0,0,false
 1306,"최후의 생존자","받는 피해량이 증가하는 상태. 아드레날린 폭주에는 적용되지 않는다.",13105,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1307,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1308,"흑야","일정량의 피해를 무효화하는 상태.",13118,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,12,false
 1309,"파쇄권","지속 피해를 받으며, 시전자에게 받는 피해량이 증가하는 상태.",10218,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1310,"금강의 극의","일정량의 피해를 받으면 '금강의 결의'가 발동하는 상태.",12527,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,25,false
@@ -1306,8 +1327,11 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1325,"신속한 마법","다음에 사용하는 마법을 시전 시간 없이 실행할 수 있는 상태.",10454,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1326,"바이오가","지속 피해를 받는 상태.",12682,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1327,"미아즈가","지속 피해를 받으며, 회복 마법으로 받는 HP 회복 효과가 저하되는 상태.",12683,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1328,"감전","번개속성 피해로 HP가 서서히 줄어드는 상태.",19041,16,2,17,0,false,false,false,false,false,false,false,false,false,10,true,0,false,0,false,false,0,0,false
+1329,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
 1330,"리제네","지속적으로 HP가 회복되는 상태.",12626,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1331,"격려","일정량의 피해를 무효화하는 상태.",12801,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,12,false
+1332,"찬찰라","미의 신 락슈미가 변덕을 부리는 상태.",15805,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
 1333,"눈에는 눈","공격을 받으면 일정 확률로 공격자에게 주는 피해량 감소 효과를 부여하는 상태.",13918,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1334,"눈에는 눈","적에게 주는 피해량이 감소하는 상태.",13919,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1335,"시전 생략","다음에 사용하는 마법을 시전 시간 없이 실행할 수 있는 상태.",14827,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1317,6 +1341,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1339,"세계수의 줄기","받는 피해량이 감소되는 상태.",13205,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1340,"살리아크의 물병","MP가 서서히 회복되는 상태.",13208,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1341,"비레고의 탑","TP가 서서히 회복되는 상태.",13209,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1342,"질주","이동 속도가 향상된 상태.",14828,0,1,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1343,"기절","행동이 불가능한 상태.",15004,0,2,3,2,true,false,true,false,false,false,true,false,false,200,true,0,false,0,false,false,0,0,false
 1344,"과중력","이동 속도가 저하한 상태.",15002,0,2,4,6,false,false,false,false,false,false,true,false,false,200,true,1,false,0,false,false,0,0,false
 1345,"속박","행동이 불가능한 상태.",15003,0,2,12,5,false,true,false,false,false,false,true,false,false,200,true,0,false,0,false,false,0,0,false
@@ -1343,7 +1368,7 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1366,"레비테트","중력을 거슬러 허공에 뜬 상태.",15037,0,1,16,33,false,false,false,false,false,false,false,true,true,1,true,12,true,0,false,false,0,0,false
 1367,"임팩트 시전 가능","임팩트를 시전할 수 있는 상태.",13401,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1368,"안식 기도","적에게 주는 마법 피해량과 회복 마법의 회복량이 증가한 상태.",12514,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
-1369,"안식 기도","적에게 주는 마법 피해량과 회복 마법의 회복량이 증가한 상태.",12514,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1369,"안식 기도","적에게 주는 마법 피해량과 회복 마법의 회복량이 증가하며, MP 소모 없이 마법을 사용할 수 있는 상태.",12514,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,6,false,0,false,false,0,19,false
 1370,"할로네의 분노","주는 피해량과 회복 마법의 회복량이 감소한 상태.",14836,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1371,"휘도는 도끼","받는 피해량이 증가하는 상태. 아드레날린 폭주에는 적용되지 않는다.",14837,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1372,"대참격","회복마법으로 받는 HP 회복 효과가 떨어진 상태.",14838,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1358,8 +1383,8 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1381,"죽은 자의 상처","영혼에 상처가 생긴 상태. '죽은 자의 암흑광'으로 받는 피해가 증가한다.",15783,0,2,17,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
 1382,"죽음 초월","죽음을 초월하여야만 살 수 있는 상태.",15780,0,2,17,20,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1383,"최대 HP 감소","HP 최대치가 감소한 상태.",15076,0,2,17,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,0,false
-1384,"가속도 폭탄","가속도 폭탄이 부착된 상태. 효과가 끝나는 시점에 움직이고 있으면 폭발한다.",15727,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
-1385,"밀쳐내기 확정","공격을 받으면 반드시 밀쳐내는 상태.",15723,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
+1384,"가속도 폭탄","가속도 폭탄이 부착된 상태. 효과가 끝나는 시점에 움직이면 폭발한다.",15727,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
+1385,"밀쳐내기 확정","공격을 받으면 뒤로 밀쳐지는 상태.",15723,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,0,false,0,false,false,0,0,false
 1386,"진흙탕","땅속성 피해로 HP가 서서히 줄어드는 상태.",18881,16,2,17,0,false,false,false,false,false,false,false,false,false,10,true,0,false,0,false,false,0,0,false
 1387,"기술 효과 범위 변경","기술의 효과 범위가 변경된 상태.",10404,0,1,0,0,false,false,false,false,false,false,false,false,false,50,true,0,false,0,false,false,0,14,false
 1388,"화차의 재","화차의 재를 뒤집어 쓴 상태.",15804,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
@@ -1392,3 +1417,86 @@ Index,0 [0x0][0x0],1 [0x0][0x4],2 [0x5][0x8],3 [0x3][0xc],4 [0x3][0xd],5 [0x3][0
 1415,"프로테스","받는 피해량이 감소하는 상태.",10405,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
 1416,"고도 고정: 아래","고도가 아래쪽으로 고정된 상태. 고도를 변화시키는 효과를 받을 수 없다.",15806,0,2,17,0,false,false,false,false,false,false,false,false,false,200,true,25,false,0,false,false,0,24,false
 1417,"석화의 저주","석화된 상태. 공격을 받으면 전투불능이 된다.",15586,0,2,6,1,true,false,true,false,false,true,false,false,false,100,true,0,false,0,false,false,0,21,false
+1418,"고독감","동료와 멀리 떨어지면 공황 상태에 빠진다.",15649,0,2,17,40,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
+1419,"용의 저주","용의 저주에 걸려 HP 회복 효과가 무효화되고 서서히 HP가 감소하는 상태. 단, 공격을 하면 일정 시간마다 HP가 회복된다.",15815,0,2,17,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,29,false
+1420,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1421,"새가슴","겁을 먹고 넋이 나가서 받는 피해량이 증가하는 상태.",15810,0,2,17,0,false,false,true,true,true,false,false,false,false,100,true,2,false,0,false,false,0,9,false
+1422,"심신상실","심신상실로 인하여 손가락 커서가 가리키는 방향을 따라 움직이게 되는 상태.",15809,0,2,17,43,false,false,false,false,false,false,false,false,false,100,true,0,false,0,false,false,0,0,false
+1423,"변신","모습이 바뀌어 자아를 잃은 상태.",15811,0,2,17,0,false,false,false,true,true,false,false,false,false,100,true,2,false,0,false,false,0,9,false
+1424,"신의 계시: 계속 움직여라","신이라고 사칭하는 자로부터 계시를 받은 상태.",15807,0,2,17,0,false,false,false,false,false,false,false,false,false,250,true,0,false,0,false,false,0,0,false
+1425,"신의 계시: 보지 마라","신이라고 사칭하는 자로부터 계시를 받은 상태.",15808,0,2,17,0,false,false,false,false,false,false,false,false,false,250,true,0,false,0,false,false,0,0,false
+1426,"용기 상실","용기를 잃어 받는 피해량이 증가하는 상태. 일정 이상 중첩되면 새가슴이 된다.",18961,3,2,17,0,false,false,false,false,false,false,false,false,false,250,true,0,false,0,false,false,0,0,false
+1427,"물기","물에 젖은 상태. 특정 공격을 받으면 몸이 얼어버린다.",15814,0,2,17,39,false,false,false,false,false,false,false,false,false,250,true,0,false,0,false,false,0,0,false
+1428,"削除予定","削除予定",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1429,"호흡곤란","유독성 물 때문에 숨쉬기가 곤란해진 상태. 10단계로 중첩되면 전투불능 상태가 된다.",18981,10,2,17,37,false,false,false,false,false,false,false,true,true,250,true,10,false,0,false,false,0,0,false
+1430,"신화 결전","신룡이 진검승부를 벌이려고 진정한 힘을 해방시킨 상태.",15816,0,1,16,0,false,false,false,false,true,false,false,true,true,200,true,2,false,0,false,false,0,9,false
+1431,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1432,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1433,"변신","다른 모습으로 변신한 상태.",16214,0,1,16,0,false,false,false,false,true,false,false,true,true,100,true,2,false,0,false,false,0,9,false
+1434,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1435,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1436,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1437,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1438,"초월자","인공적으로 초월하는 힘을 발동시킨 상태.",15795,0,1,16,31,true,false,true,false,false,false,false,true,true,200,true,4,false,0,false,false,0,16,false
+1439,"작전: 자유","자유롭게 행동하는 상태. 최대 HP와 주는 피해량이 증가하고, 받는 피해량이 감소한다.",19101,5,1,16,0,false,false,false,true,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
+1440,"작전: 공격","공격을 중시하는 상태. 주는 피해량이 증가한다.",19121,5,1,16,0,false,false,false,true,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
+1441,"작전: 방어","방어를 중시하는 상태. 최대 HP가 증가하고, 받는 피해량이 감소한다.",19141,5,1,16,0,false,false,false,true,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
+1442,"작전: 균형","공격과 방어의 장점을 고루 갖춘 상태. 최대 HP와 주는 피해량이 증가한다.",19161,5,1,16,0,false,false,false,true,false,false,false,true,true,0,true,0,false,0,false,false,0,0,false
+1443,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1444,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1445,"가짜 가면","가짜 신의 모습을 본뜬 가면을 쓴 상태.",15812,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
+1446,"진정한 가면","진정한 신의 모습을 본뜬 가면을 쓴 상태.",15813,0,1,16,0,false,false,false,false,false,false,false,true,true,200,true,0,false,0,false,false,0,0,false
+1447,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1448,"변신","다른 모습으로 변신한 상태.",16214,0,1,16,0,false,false,true,false,true,false,false,false,false,100,true,2,true,0,false,false,0,9,false
+1449,"방랑 음악가의 무곡","적에게 주는 피해량이 증가한 상태.",12615,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1450,"방랑 음악가의 찬가","받는 피해량이 감소되는 상태.",12614,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1451,"왕의 검","HP가 서서히 감소하며, 회복 마법으로 받는 HP회복 효과가 감소한 상태.",14841,0,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1452,"여왕의 날개","지속적으로 HP가 회복되는 상태.",14840,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1453,"용의 오른눈","적에게 주는 피해량이 증가한 상태.",12581,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
+1454,"용의 왼눈","적에게 주는 피해량이 증가한 상태.",12582,0,1,16,0,false,false,false,false,false,false,false,false,false,100,true,0,true,0,false,false,0,0,false
+1455,"화염 방사","전방 부채꼴 범위 안의 대상에게 지속 피해를 주는 상태.",13017,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,4,true,0,false,false,0,27,false
+1456,"전쟁의 짜릿함","HP 최대치가 증가한 상태.",14803,0,1,16,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1457,"뿌리치기","일정량의 피해를 무효화하는 상태.",12557,0,1,16,0,false,false,false,false,false,false,false,false,false,60,true,0,false,0,false,false,0,12,false
+1458,"화염 방사","지속 피해를 받는 상태.",19081,5,2,17,0,false,false,false,false,false,false,false,false,false,0,true,0,false,0,false,false,0,0,false
+1459,"변신","모습이 바뀌어 자아를 잃은 상태.",15811,0,2,17,0,false,false,false,true,true,false,false,false,false,100,true,2,false,0,false,false,0,9,false
+1460,"구속","행동이 불가능한 상태.",15545,0,2,17,41,true,false,true,true,false,false,false,true,false,100,true,4,false,0,false,false,0,0,false
+1461,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1462,"기술 실행 불가","기술을 실행할 수 없는 상태.",15045,0,2,17,0,false,false,false,false,false,false,false,true,true,100,true,19,false,0,false,false,0,24,false
+1463,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1464,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1465,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1466,"자상","찌르기속성 피해로 HP가 서서히 줄어드는 상태.",15522,0,2,17,0,false,false,false,false,false,false,false,false,false,10,true,0,false,0,false,false,0,0,false
+1467,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1468,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1469,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1470,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1471,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1472,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1473,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1474,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1475,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1476,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1477,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1478,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1479,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1480,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1481,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1482,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1483,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1484,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1485,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1486,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1487,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1488,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1489,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1490,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1491,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1492,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1493,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1494,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1495,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1496,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1497,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1498,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1499,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false
+1500,"","",0,0,0,0,0,false,false,false,false,false,false,false,false,false,0,false,0,false,0,false,false,0,0,false

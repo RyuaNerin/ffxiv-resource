@@ -6,59 +6,59 @@ Index,0 [0x0][0x0],1 [0x3][0x4],2 [0x19][0x5],3 [0x1a][0x5]
 4,"레이드",1,true,false
 5,"투기장",1,true,false
 6,"전장",1,true,false
-7,"PvP 순위",1,true,true
-8,"마물 사냥",1,true,false
-9,"보물찾기",1,true,false
-10,"일반",2,true,false
-11,"투사",2,true,false
-12,"마법사",2,true,false
-13,"제작자",2,true,false
-14,"채집가",2,true,false
-15,"PvP",2,true,false
-16,"플레이어 추천",2,true,false
-17,"골드 소서",2,true,false
-18,"일반",4,true,false
-19,"화폐",4,true,false
-20,"분해",4,true,false
-21,"소장품",4,true,false
-22,"마테리아",4,true,false
-23,"목수",5,true,false
-24,"대장장이",5,true,false
-25,"갑주제작사",5,true,false
-26,"보석공예가",5,true,false
-27,"가죽공예가",5,true,false
-28,"재봉사",5,true,false
-29,"연금술사",5,true,false
-30,"요리사",5,true,false
-31,"광부",6,true,false
-32,"원예가",6,true,false
-33,"어부",6,true,false
-34,"일반",8,true,false
-35,"의뢰",8,true,false
-36,"야만족 퀘스트",8,true,false
-37,"기간 한정 이벤트",8,true,true
-38,"라노시아",11,true,false
-39,"검은장막 숲",11,true,false
-40,"다날란",11,true,false
-41,"커르다스",11,true,false
-42,"모르도나",11,true,false
-43,"아발라시아",11,true,false
-44,"드라바니아",11,true,false
-45,"기라바니아",11,true,false
-46,"오사드",11,true,false
-47,"일반",12,true,false
-48,"흑와단",12,true,false
-49,"쌍사당",12,true,false
-50,"불멸대",12,true,false
-51,"전투",13,true,false
-52,"화폐",13,true,false
-53,"채집",13,true,false
-54,"퀘스트",13,true,false
-55,"기간 한정 이벤트",13,true,false
-56,"던전",13,true,false
-57,"탐험",13,true,false
-58,"총사령부",13,true,false
-59,"",0,false,false
+7,"",0,false,false
+8,"PvP 순위",1,true,true
+9,"마물 사냥",1,true,false
+10,"보물찾기",1,true,false
+11,"일반",2,true,false
+12,"투사",2,true,false
+13,"마법사",2,true,false
+14,"제작자",2,true,false
+15,"채집가",2,true,false
+16,"PvP",2,true,false
+17,"플레이어 추천",2,true,false
+18,"골드 소서",2,true,false
+19,"일반",4,true,false
+20,"화폐",4,true,false
+21,"분해",4,true,false
+22,"소장품",4,true,false
+23,"마테리아",4,true,false
+24,"목수",5,true,false
+25,"대장장이",5,true,false
+26,"갑주제작사",5,true,false
+27,"보석공예가",5,true,false
+28,"가죽공예가",5,true,false
+29,"재봉사",5,true,false
+30,"연금술사",5,true,false
+31,"요리사",5,true,false
+32,"광부",6,true,false
+33,"원예가",6,true,false
+34,"어부",6,true,false
+35,"일반",8,true,false
+36,"의뢰",8,true,false
+37,"야만족 퀘스트",8,true,false
+38,"기간 한정 이벤트",8,true,true
+39,"라노시아",11,true,false
+40,"검은장막 숲",11,true,false
+41,"다날란",11,true,false
+42,"커르다스",11,true,false
+43,"모르도나",11,true,false
+44,"아발라시아",11,true,false
+45,"드라바니아",11,true,false
+46,"기라바니아",11,true,false
+47,"오사드",11,true,false
+48,"일반",12,true,false
+49,"흑와단",12,true,false
+50,"쌍사당",12,true,false
+51,"불멸대",12,true,false
+52,"전투",13,true,false
+53,"화폐",13,true,false
+54,"채집",13,true,false
+55,"퀘스트",13,true,false
+56,"기간 한정 이벤트",13,true,false
+57,"던전",13,true,false
+58,"탐험",13,true,false
+59,"총사령부",13,true,false
 60,"",0,false,false
 61,"",0,false,false
 62,"",0,false,false

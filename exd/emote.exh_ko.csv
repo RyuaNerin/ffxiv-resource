@@ -49,10 +49,10 @@ Index,0 [0x0][0x0],1 [0x5][0xc],2 [0x5][0xe],3 [0x5][0x10],4 [0x5][0x12],5 [0x5]
 47,"무릎 꿇고 사죄",701,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,76,448,64051,150,250,0
 48,"행복",709,0,0,684,684,0,0,true,true,true,1,0,false,true,false,false,23,449,64052,151,251,0
 49,"좌절",718,0,668,747,747,0,0,true,true,true,1,0,false,true,false,false,67,450,64053,152,252,0
-50,"앉기",654,653,0,0,0,0,0,false,false,false,2,1,false,false,true,false,190,451,64054,0,0,0
-51,"서기",655,0,655,0,0,0,0,false,false,false,2,1,true,false,false,false,0,0,64054,0,0,0
-52,"앉기",643,642,0,0,0,0,0,false,false,false,2,2,false,false,false,false,0,0,64054,0,0,0
-53,"서기",644,0,0,644,0,0,0,false,false,false,2,2,true,false,false,false,0,0,64054,0,0,0
+50,"앉기",643,642,0,0,0,0,0,false,false,false,2,2,false,false,true,false,198,451,64056,0,0,0
+51,"서기",644,0,0,644,0,0,0,false,false,false,2,2,true,false,false,false,0,0,64054,0,0,0
+52,"바닥에 앉기",654,653,0,0,0,0,0,false,false,false,2,1,false,false,true,false,199,453,64054,0,0,0
+53,"서기",655,0,655,0,0,0,0,false,false,false,2,1,true,false,false,false,0,0,64054,0,0,0
 54,"강조",688,0,0,673,673,0,0,true,true,true,1,0,false,true,false,false,103,455,64063,0,0,0
 55,"흑와단식 경례",726,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,9,456,64046,145,245,0
 56,"쌍사당식 경례",727,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,9,457,64047,146,246,0
@@ -137,20 +137,33 @@ Index,0 [0x0][0x0],1 [0x5][0xc],2 [0x5][0xe],3 [0x5][0x10],4 [0x5][0x12],5 [0x5]
 135,"블랙 전사의 연무(오른쪽)",4797,4796,0,0,0,0,0,false,false,false,2,19,false,true,false,false,173,536,64098,8018,8019,316
 136,"옐로 전사의 연무(오른쪽)",4795,4794,0,0,0,0,0,false,false,false,2,20,false,true,false,false,175,537,64099,8020,8021,317
 137,"머리 감싸기",4674,0,0,4675,4675,0,0,true,true,true,1,0,false,true,false,false,78,538,64326,8022,8023,0
-138,"참철검",4803,0,0,0,0,0,0,false,false,false,2,0,false,true,false,true,187,539,64327,8024,8025,328
+138,"참철검",4803,0,0,0,0,0,0,false,false,false,2,0,false,true,false,true,196,539,64327,8024,8025,328
 139,"육체미",4811,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,91,540,64328,8026,8027,0
 140,"묵념",4804,0,4812,4805,4805,0,0,true,true,true,1,0,false,true,false,false,30,541,64329,8028,8029,0
 141,"교활한 웃음",622,0,622,622,622,622,0,true,true,true,3,0,false,false,false,false,214,542,64119,8030,8031,0
 142,"귀여운 부탁",4800,0,4823,4801,4801,0,0,true,true,true,1,0,false,true,false,false,132,543,64330,8032,8033,331
-143,"죽은 척하기",4799,4798,0,0,4799,0,0,false,true,true,2,21,false,true,false,false,185,544,64331,8034,8035,330
-144,"빙결의 환상",4802,0,0,0,0,0,0,false,false,false,2,0,false,true,false,false,188,545,64332,8036,8037,329
+143,"죽은 척하기",4799,4798,0,0,4799,0,0,false,true,true,2,21,false,true,false,false,195,544,64331,8034,8035,330
+144,"빙결의 환상",4802,0,0,0,0,0,0,false,false,false,2,0,false,true,false,false,197,545,64332,8036,8037,329
 145,"태양과 달의 춤",4810,4809,0,0,0,0,0,false,false,false,2,22,false,true,false,false,159,546,64333,8038,8039,332
 146,"애정 표현",4815,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,32,547,64334,8040,8041,333
 147,"애정 표현",4816,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,0,0,0,8040,8041,333
 148,"안경 고쳐쓰기",4676,0,0,4677,4677,0,0,true,true,true,1,0,false,true,false,false,133,549,64335,8042,8043,334
 149,"가희 따라하기",4818,4817,0,0,0,0,0,false,false,false,2,23,false,true,false,false,181,550,64336,8044,8045,335
-150,"수면에 뜨기",0,4806,0,0,4807,0,0,false,true,false,2,24,false,true,false,false,182,551,64337,0,0,0
+150,"수면에 뜨기",0,4806,0,0,4807,0,0,false,true,false,2,24,false,true,false,false,183,551,64337,0,0,0
 151,"수중 공중제비",0,0,0,0,4808,0,0,false,false,true,1,0,false,true,false,false,134,552,64338,0,0,340
 152,"입술 내밀기",623,0,623,623,623,623,0,true,true,true,3,0,false,false,false,false,215,553,64120,8046,8047,0
-153,"",0,0,0,0,0,0,0,false,false,false,0,0,false,false,false,false,0,0,0,0,0,0
+153,"힘 모으기",4825,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,135,554,64339,8048,8049,343
 154,"동방식 인사",4829,0,0,0,0,0,0,false,false,false,1,0,false,true,false,false,2,555,64340,8050,8051,68016
+155,"스쿼트",5803,5812,0,0,0,0,0,false,false,false,2,25,false,true,false,false,184,556,64341,8052,8053,373
+156,"팔굽혀펴기",5800,5799,0,0,0,0,0,false,false,false,2,26,false,true,false,false,185,557,64342,8054,8055,373
+157,"윗몸일으키기",5802,5801,0,0,0,0,0,false,false,false,2,27,false,true,false,false,186,558,64343,8056,8057,373
+158,"심호흡",5804,5813,0,0,0,0,0,false,false,false,2,28,false,true,false,false,187,559,64344,8058,8059,373
+159,"이야기",5810,0,4830,5811,5811,0,0,true,true,true,1,0,false,true,false,false,136,560,64345,8060,8061,0
+160,"진지한 표정",624,0,624,624,624,624,0,true,true,true,3,0,false,false,false,false,216,561,64121,8062,8063,0
+161,"당혹스러운 표정",625,0,625,625,625,625,0,true,true,true,3,0,false,false,false,false,217,562,64122,8064,8065,0
+162,"온화한 표정",6215,0,6215,6215,6215,6215,0,true,true,true,3,0,false,false,false,false,218,563,64123,8066,8067,0
+163,"만족스러운 표정",6216,0,6216,6216,6216,6216,0,true,true,true,3,0,false,false,false,false,219,564,64124,8068,8069,0
+164,"차려",5806,5805,0,0,0,0,0,false,false,false,2,29,false,true,false,false,188,565,64346,8070,8071,375
+165,"열중쉬어",5808,5807,0,0,0,0,0,false,false,false,2,30,false,true,false,false,189,566,64347,8072,8073,376
+166,"격투 훈련",5809,5814,0,0,0,0,0,false,false,false,2,31,false,true,false,false,190,567,64348,8074,8075,68498
+167,"주술걸기",6219,6218,0,0,0,0,0,false,false,false,2,32,false,true,false,false,182,568,64349,8076,8077,374
